@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.poster img{
+    width: 30%;
+    height: 5%;
+    margin-top: -1%;
+}
+.header{
+    
+    top: 17%;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+
+.home img{
+    width: 60%;
+    height:220px;
+    margin-top: 10%;
+    margin-left: 320%;
+    border-radius: 100%;
+    float: left ;
+}
+.profile{
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 500px;
+    margin-left: 300%;
+    border: 3px solid #C0C0C0;
+    padding: auto;
+}
+.profile h2{
+    margin-left: 21%;
+    margin-top: 270px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.profile p{
+    margin-left: 21%;
+    margin-top: 3%;
+    color: black;
+    
+}
+.nav-icon {
+    margin-top: -150px;
+    margin-left: 1200px;
+    font-size: 40px;
+    
+}
+.left{
+    float: left;
+    width: 25%;
+    height: 50%;
+}
+.center{
+    background-color: #CCCCCC;
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: 3px solid #C0C0C0;
+    padding: auto;
+}
+.center h1{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.center a{
+    margin-left: -340px;
+    margin-top: -15%;
+}
+.right{
+    background-color: #CCCCCC;
+    width: 25%;
+    height: 501px;
+    float: none;
+    border: 3px solid #C0C0C0;
+    padding: auto;
+    margin-top: 7%;
+    
+
+}
+.right a{
+    float: left;
+    margin-top:-450px ;
+    margin-left: 30px;
+}
+iframe{
+    width: 180px;
+    height: 180px;
+    margin-top: -400%;
+    margin-left: 70px;
+}
+
+.footer{
+    background-color: orange;
+    border: #ccc 1px solid;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    height: 100px;
+    
+}
+
